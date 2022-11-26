@@ -39,7 +39,7 @@ html {
 
 #inicio .contenido header .contenido-header h1 {
     text-align: center;
-    color: #ff5080;
+    color: rgb(44, 201, 38)
 }
 
 #inicio .contenido header .contenido-header nav ul {
@@ -57,7 +57,7 @@ html {
 }
 
 #inicio .contenido header .contenido-header nav ul li a:hover {
-    color: #ff5080;
+    color: rgb(44, 201, 38);
 }
 
 #inicio .contenido header .contenido-header .redes a {
@@ -69,11 +69,11 @@ html {
 }
 
 #inicio .contenido header .contenido-header .redes a:hover {
-    color: #ff5080;
+    color: rgb(44, 201, 38);
 }
 
 #inicio .contenido header .contenido-header .seleccionado {
-    color: #ff5080;
+    color: rgb(44, 201, 38);
 }
 
 #inicio .contenido .presentacion {
@@ -102,7 +102,7 @@ html {
 
 #inicio .contenido .presentacion h2 span {
     font-size: 25px;
-    color: #ff5080;
+    color: rgb(44, 201, 38);
 }
 
 #inicio .contenido .presentacion .descripcion {
@@ -126,7 +126,7 @@ html {
 }
 
 #inicio .contenido .presentacion a:hover {
-    background-color: #ff5080;
+    background-color: rgb(44, 201, 38);
 }
 
 #icono-nav {
@@ -150,11 +150,15 @@ html {
     margin-right: 80px;
 }
 
-#sobremi .contenedor-foto img {
+#sobremi .contenedor-foto img{
     padding: 20px;
     width: 100%;
     border-radius: 20px;
     background-color: #f3f3f3;
+}
+#sobremi .contenedor-foto img:hover{
+
+    background-color: rgb(44, 201, 38);
 }
 
 #sobremi .sobremi {
@@ -178,7 +182,7 @@ html {
 }
 
 #sobremi .sobremi h2 span {
-    color: #ff5080;
+    color: rgb(44, 201, 38);
 }
 
 #sobremi .sobremi h3 {
@@ -208,7 +212,7 @@ html {
 }
 
 #sobremi .sobremi a:hover {
-    background-color: #ff5080;
+    background-color: rgb(44, 201, 38);
     color: #fff;
 }
 /* *********************/
@@ -289,7 +293,7 @@ html {
 /* *********************/
 
 .contenedor-skills {
-    background: linear-gradient( #eb5a5acc, rgba(33, 16, 16, 0.8)), url("img/fondo-skills.jpg");
+    background: linear-gradient( rgb(44, 201, 38), rgba(33, 16, 16, 0.8)), url("img/fondo-skills.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -314,7 +318,7 @@ html {
     margin-right: 20px;
     height: 10px;
     width: 10px;
-    background-color: #fff;
+    background-color: #565656;
 }
 
 .contenedor-skills .skill .barra {
@@ -438,7 +442,7 @@ html {
     position: absolute;
     left: 0px;
     background-color: rgba(0, 0, 0, 0.8);
-    color: #ff5080;
+    color: rgb(44, 201, 38);
     width: 100%;
     padding: 10px;
     opacity: 0;
@@ -512,7 +516,7 @@ html {
 }
 
 #contacto .btn-enviar:hover {
-    background-color: #ff5080;
+    background-color: rgb(44, 201, 38);
     color: #fff;
 }
 /* *********************/
