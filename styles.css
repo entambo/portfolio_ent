@@ -62,7 +62,7 @@ html {
 
 #inicio .contenido header .contenido-header .redes a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(143, 199, 143);
     display: inline-block;
     margin-left: 10px;
     transition: .5s;
@@ -119,7 +119,7 @@ html {
     padding: 20px 25px;
     border: 2px solid #fff;
     border-radius: 50px;
-    color: #fff;
+    color: rgb(143, 199, 143);
     font-weight: bold;
     text-transform: uppercase;
     transition: .5s;
@@ -130,7 +130,7 @@ html {
 }
 
 #icono-nav {
-    color: #fff;
+    color: rgb(143, 199, 143);
     display: none;
 }
 /* *********************/
@@ -153,12 +153,15 @@ html {
 #sobremi .contenedor-foto img{
     padding: 20px;
     width: 100%;
-    border-radius: 20px;
-    background-color: #f3f3f3;
+    /* border-radius: 5px;
+    box-shadow: 1px 1px 2px #d2frgba(210, 241, 210, 0.363);
+    background-color: #d2f1d2;  */
 }
-#sobremi .contenedor-foto img:hover{
+ #sobremi .contenedor-foto img:hover{
 
-    background-color: rgb(44, 201, 38);
+    /* background-color:#78e978;
+    box-shadow: 2px 2px 4px #d2frgba(210, 241, 210, 0.363); */
+    filter: sepia(70%);
 }
 
 #sobremi .sobremi {
